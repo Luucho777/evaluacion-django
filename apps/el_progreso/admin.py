@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Entrenador, Actividad, Espacio, Evento, Socio
+from apps.el_progreso.models import Entrenador, Actividad, Espacio, Evento, Socio
 
 admin.site.register(Entrenador)
 admin.site.register(Actividad)
